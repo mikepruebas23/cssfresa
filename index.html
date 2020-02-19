@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- GOOGLE ANALITICS -->
     <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,Framework,Diseño web,Js">
+    <meta name="author" content="Miguel Angel Armenta Acosta">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cssfresa</title>
+    <title>FRESA CSS | Framework de CSS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    cssfresa
+    <div class="container">
+        <div class="starter-template">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="elemento_left">
+                        <div class="elemento__content_left">
+                            <div class="elemento__image_left_h1 lbg">
+                                <h1 class="ipc oymc">Titulo</h1>
+                            </div>
+                            <div class="elemento__image_left_p lbg">
+                                <p class="ipc oymc">
+                                    Nam nec ipsum id mauris dictum sollicitudin. Nam id lectus lectus. Donec eu lacus
+                                    dictum, scelerisque purus sed, pharetra ex. Vestibulum eget vehicula tortor, non
+                                    cursus lectus. Aenean ut est fermentum, tincidunt massa quis, mattis sapien. Mauris
+                                    auctor sit amet sapien et vehicula. Integer rutrum lacus dolor, non auctor velit
+                                    hendrerit non.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="starter-template">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="elemento_left">
+                        <div class="elemento__content_left">
+                            <div class="elemento__image_left_h1 lbg">
+                                <h1 class="ipc oymc">Titulo</h1>
+                            </div>
+                            <div class="elemento__image_left_p lbg">
+                                <p class="ipc oymc">
+                                    Nam nec ipsum id mauris dictum sollicitudin. Nam id lectus lectus. Donec eu lacus
+                                    dictum, scelerisque purus sed, pharetra ex. Vestibulum eget vehicula tortor, non
+                                    cursus lectus. Aenean ut est fermentum, tincidunt massa quis, mattis sapien. Mauris
+                                    auctor sit amet sapien et vehicula. Integer rutrum lacus dolor, non auctor velit
+                                    hendrerit non.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var $rows1 = $(".ipc");
+        var $rows2 = $(
+            ".elemento__image_left_h1, .elemento__image_left_p, .elemento__image_right_p, .elemento__image_center_textarea, .elemento__boton_center"
+            );
+
+        setTimeout(function () {
+            $rows1.removeClass("oymc");
+            $rows1.addClass("mc");
+
+            $rows2.removeClass(
+                ".elemento__image_left_h1 .elemento__image_left_p .elemento__image_right_p .elemento__image_center_textarea .elemento__boton_center"
+                );
+            $rows2.addClass("pnbg")
+
+        }, 2500);
+    });
+</script>
+
 </html>
