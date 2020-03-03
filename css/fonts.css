@@ -1,0 +1,47 @@
+.f-txtcolor
+{
+  color: white;
+  font-family: 'Roboto';
+}
+.f-taj
+{
+  text-align: justify;
+}
+.f-tae
+{
+  text-align: end;
+}
+.f-ff-Alegraya
+{
+  font-family: 'Alegreya Sans';
+  font-size: 70px;
+}
+
+.f-fz25
+{
+  font-size: 25px;
+}
+.f-fz12
+{
+    font-size: 12px;
+}
+
+/* mobile-portrait */
+@media (max-width: 479px) and (min-width: 320px )
+{
+  .f-small-ff-Alegraya{
+    font-family: 'Alegreya Sans';
+    font-size: 40px;
+  }
+  .f-small-fz12
+  {
+    font-size: 12px;
+  }
+  .f-small-fz14
+  {
+    font-size: 14px;
+  }
+}
+
+
+

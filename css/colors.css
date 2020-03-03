@@ -1,0 +1,43 @@
+/* COLOR VARS V1.0 */
+:root {
+      /* --cFondo: #e0c4c9; */
+      --cFondo-fresa: #fe3b65; 
+      /* --cFondo: #fe6f88; */
+      /* --cFondo: #f3f3f3;  */
+
+      --cRed: #ff3f34;
+      --cGreen-Lime: #4cd137;
+      --Green: #1aaa55;
+      --Blue: #1f78d1;
+      --cBlue-Primary: #339af0;
+      --cGray: gray;
+      --cYellow-dark: #ffff0066;
+    }
+
+.f-bg-black1
+{
+    color: #adb5bd;
+    background-color: #343a40;
+}
+.f-p3rem{padding:1rem;}
+
+/* footer item */
+.fitem 
+{
+    color:#dee2e6;
+    margin-bottom: .5rem;
+    padding-bottom: .25rem;
+}
+
+.f-bg-black2
+{
+    color: #adb5bd;
+    background-color: #212529;
+}
+.footer-bottom{
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+  

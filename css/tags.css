@@ -1,0 +1,24 @@
+
+/*--------- STYLE ON TAGS ------ */
+h2
+{
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #868e96;
+    letter-spacing: .1em;
+    box-sizing: border-box;
+  }
+a:hover{color:white;}
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul
+{
+    list-style: none;
+}
+footer
+{
+    font-family: 'Roboto' ;
+}
