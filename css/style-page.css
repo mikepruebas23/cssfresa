@@ -123,5 +123,18 @@ a.link-active
         width: 13%;
         margin: 20px auto;
     }
+    div code div span
+    {
+        display: block;
+    }
+    .small-pre
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        max-height: 8vh;
+        overflow: auto;
+        height: 8vh;
+    }
 
 }

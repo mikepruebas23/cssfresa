@@ -6,10 +6,11 @@
     <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="HTML,CSS,Framework,Diseño web,Reponsive">
     <meta name="author" content="Miguel Angel Armenta Acosta">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Buttons | FRESA CSS</title>
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/ExamplesHTML.css">
+    <link href="../../css/faw/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:900&display=swap" rel="stylesheet">
 </head>
@@ -31,6 +32,20 @@
         </header>
     </div>
     <!-- End navBar -->
+    <div class="f-dnone f-small-dblock">
+        <header>
+            <div class="menu_bar">
+                <a href="#" class="bt-menu"><i class="fas fa-bars"></i></a>
+            </div>
+            <nav>
+                <ul class="f-p0 f-m0">
+                    <li class="menu-active"><a href="#"><i class="fas fa-caret-square-right"></i>Buttons</a></li>
+                    <li><a href="#" class="menu-txt-color"><i class="fas fa-id-card"></i>Cards</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- End navBar Mobile-->
 
     <div class="division f-df-fdr">
         <div class="f-w15 lateral f-small-dnone">
@@ -79,17 +94,10 @@
                             <button class="f-btn f-btn-green">UPDATE</button>
                             <button class="f-btn f-btn-red">DELETE</button>
                         </div>
-                        <div class="ex-bgc ex-container f-fz14 f-small-9">
-                            <!-- button add  -->
-                            <code class="language-html" data-lang="html">
-                                <span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-blue"</span><span class="ex-tags">&gt;</span>ADD<span class="ex-tags">&lt;/button&gt;</span>
-                                <br>
-                             <!-- button update  -->
-                                <span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-green"</span><span class="ex-tags">&gt;</span>UPDATE<span class="ex-tags">&lt;/button&gt;</span>
-                                <br>
-                             <!-- button delete  -->
-                                <span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-red"</span><span class="ex-tags">&gt;</span>DELETE<span class="ex-tags">&lt;/button&gt;</span>
-                            </code>
+                        <div class="ex-bgc ex-container f-fz14">
+                            <pre class="f-df-fdc small-pre">
+                            <div><span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-blue"</span><span class="ex-tags">&gt;</span>ADD<span class="ex-tags">&lt;/button&gt;</span></div><div><span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-green"</span><span class="ex-tags">&gt;</span>UPDATE<span class="ex-tags">&lt;/button&gt;</span></div><div><span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-red"</span><span class="ex-tags">&gt;</span>DELETE<span class="ex-tags">&lt;/button&gt;</span></div>
+                            </pre>
                         </div>
                     </div>
                     <div class="ex-block ex-small-block">
@@ -98,17 +106,10 @@
                             <button class="f-btn f-btn-ol-green">UPDATE</button>
                             <button class="f-btn f-btn-ol-red">DELETE</button>
                         </div>
-                        <div class="ex-bgc ex-container f-fz14 f-small-9">
-                            <!-- button add  -->
-                            <code class="language-html" data-lang="html">
-                                <span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-ol-blue"</span><span class="ex-tags">&gt;</span>ADD<span class="ex-tags">&lt;/button&gt;</span>
-                                <br>
-                             <!-- button update  -->
-                                <span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-ol-green"</span><span class="ex-tags">&gt;</span>UPDATE<span class="ex-tags">&lt;/button&gt;</span>
-                                <br>
-                             <!-- button delete  -->
-                                <span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-ol-red"</span><span class="ex-tags">&gt;</span>DELETE<span class="ex-tags">&lt;/button&gt;</span>
-                            </code>
+                        <div class="ex-bgc ex-container f-fz14">
+                            <pre class="f-df-fdc small-pre">
+                            <div><span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-ol-blue"</span><span class="ex-tags">&gt;</span>ADD<span class="ex-tags">&lt;/button&gt;</span></div><div><span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-ol-green"</span><span class="ex-tags">&gt;</span>UPDATE<span class="ex-tags">&lt;/button&gt;</span></div><div><span class="ex-tags">&lt;button </span><span class="ex-meta">class=</span><span class="ex-clases">"f-btn f-btn-ol-red"</span><span class="ex-tags">&gt;</span>DELETE<span class="ex-tags">&lt;/button&gt;</span></div>
+                            </pre>
                         </div>
                     </div>
                 </div>
@@ -124,5 +125,34 @@
         </div>
     </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+
+$(document).ready(main);
+
+var contador = 1;
+
+function main () {
+	$('.menu_bar').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+
+	// Mostramos y ocultamos submenus
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+
+</script>
 
 </html>

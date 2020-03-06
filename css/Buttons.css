@@ -68,15 +68,36 @@
     border-color: #2196F3;
     color: #2196F3;
 }
+.f-btn-ol-blue:hover
+{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+
+}
 .f-btn-ol-green
 {
     border: 1px solid;
     border-color: var(--cGreen-Lime);
     color: var(--cGreen-Lime);
 }
+.f-btn-ol-green:hover
+{
+    color: #fff;
+    background-color: var(--cGreen-Lime);
+    border-color: var(--cGreen-Lime);
+
+}
 .f-btn-ol-red
 {
     border: 1px solid;
     border-color: var(--cRed);;
     color: var(--cRed);
+}
+.f-btn-ol-red:hover
+{
+    color: white;
+    background-color:  var(--cRed);
+    border-color:var(--cRed);
+
 }
