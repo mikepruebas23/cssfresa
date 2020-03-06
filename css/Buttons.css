@@ -1,0 +1,82 @@
+/* component button */
+/* .f-btn
+{
+    border: none;
+    text-align:center;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    cursor: pointer;
+    overflow:hidden;
+    text-decoration: none;
+    background-color:  #fff;
+} */
+
+.f-btn
+{
+    border: none;
+    text-align:center;
+    /* display: inline-block; */
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    cursor: pointer;
+    overflow:hidden;
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.f-btn:active
+{
+    transform: scale(0.9);
+}
+
+.f-btn-blue
+{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.f-btn-blue:hover
+{
+    background-color: #0a66c7;
+}
+.f-btn-red
+{
+    color: #fff;
+    background-color:  var(--cRed);
+    border-color:var(--cRed);
+}
+.f-btn-red:hover
+{
+    background-color: #d0342b;
+}
+.f-btn-green
+{
+    color: #fff;
+    background-color: var(--cGreen-Lime);
+    border-color: var(--cGreen-Lime);
+}
+.f-btn-green:hover
+{
+    background-color: #128240;
+}
+.f-btn-ol-blue
+{
+    border: 1px solid;
+    border-color: #2196F3;
+    color: #2196F3;
+}
+.f-btn-ol-green
+{
+    border: 1px solid;
+    border-color: var(--cGreen-Lime);
+    color: var(--cGreen-Lime);
+}
+.f-btn-ol-red
+{
+    border: 1px solid;
+    border-color: var(--cRed);;
+    color: var(--cRed);
+}

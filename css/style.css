@@ -1,12 +1,14 @@
 /* imports style sheets */
 @import "normalize.css";
 @import "fonts.css";
+@import "Buttons.css";
 @import "widths.css";
 @import "colors.css";
 @import "tags.css";
 @import "paddings.css";
 @import "margins.css";
 @import "backgrounds.css";
+@import "style-page.css";
 
 
 /* division */
@@ -57,4 +59,9 @@
     display: flex;
     flex-direction: column;
   }
+  .f-small-dnone
+  {
+    display: none;
+  }
+
 }

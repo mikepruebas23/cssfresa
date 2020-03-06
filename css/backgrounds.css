@@ -3,3 +3,7 @@
 {
   background-color: var(--cFondo-fresa) !important;
 }
+.f-bg-aliceblue
+{
+  background: aliceblue;
+}

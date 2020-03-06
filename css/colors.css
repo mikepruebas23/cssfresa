@@ -6,13 +6,20 @@
       /* --cFondo: #f3f3f3;  */
 
       --cRed: #ff3f34;
-      --cGreen-Lime: #4cd137;
-      --Green: #1aaa55;
-      --Blue: #1f78d1;
+      --cGreen: #1aaa55;
+      --cGreen-success: #4cd137;
+      --cGreen-Lime:#1aaa55;
+      --cBlue: #1f78d1;
       --cBlue-Primary: #339af0;
-      --cGray: gray;
+      --cGray2: gray;
+      --cGray: rgba(0,0,0,.65);
       --cYellow-dark: #ffff0066;
     }
+.f-cRed{ background-color:  var(--cRed)!important;}
+.f-cBlue{ background-color:  var(--cBlue)!important;}
+.f-cBlue-primary{ background-color:  var(--cBlue-Primary)!important;}
+.f-cGreen-lime{ background-color:  var(--cGreen-Lime)!important;}
+.f-cGray{ background-color:  var(--cGray)!important;}
 
 .f-bg-black1
 {

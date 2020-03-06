@@ -1,6 +1,15 @@
+.f-tac
+{
+  text-align: center;
+}
 .f-txtcolor
 {
   color: white;
+  font-family: 'Roboto';
+}
+.f-txtcolor-black
+{
+  color: black;
   font-family: 'Roboto';
 }
 .f-taj
@@ -11,10 +20,23 @@
 {
   text-align: end;
 }
+.f-ff-Roboto-only
+{
+  font-family: 'Roboto';
+}
+.f-ff-Alegraya-only
+{
+  font-family: 'Alegreya Sans';
+}
 .f-ff-Alegraya
 {
   font-family: 'Alegreya Sans';
   font-size: 70px;
+}
+.f-ff-Alegraya-med
+{
+  font-family: 'Alegreya Sans';
+  font-size: 40px;
 }
 
 .f-fz25
@@ -25,13 +47,37 @@
 {
     font-size: 12px;
 }
+.f-fz14
+{
+    font-size: 14px;
+}
 
+.f-fz20
+{
+    font-size: 20px;
+}
+.f-lspacing
+{
+  letter-spacing: 4px;
+}
 /* mobile-portrait */
 @media (max-width: 479px) and (min-width: 320px )
 {
   .f-small-ff-Alegraya{
     font-family: 'Alegreya Sans';
     font-size: 40px;
+  }
+  .f-small-tac
+  {
+    text-align: center;
+  }
+  .f-small-10
+  {
+    font-size: 10px;
+  }
+  .f-small-11
+  {
+    font-size: 11px;
   }
   .f-small-fz12
   {
