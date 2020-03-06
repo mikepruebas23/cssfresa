@@ -81,6 +81,10 @@ a.link-active
     padding: 10px;
 
 }
+.footer-box
+{
+    display: none;
+}
 /* mobile-portrait */
 @media (max-width: 479px) and (min-width: 320px) {
     .f-logo {
@@ -104,6 +108,20 @@ a.link-active
         width: 90%;
         padding: 0;
         margin: 0 auto;
+    }
+    .small-footer-box
+    {
+        display: block;
+        border-top: 1px solid #e8e8e8;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.08) inset;
+        text-align: center;
+        font-family: 'Alegreya Sans';
+        /* padding: 20px; */
+    }
+    .small-footer-box > div {
+        transform: rotate(34deg);
+        width: 13%;
+        margin: 20px auto;
     }
 
 }
