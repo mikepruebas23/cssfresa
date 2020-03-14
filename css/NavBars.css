@@ -1,0 +1,95 @@
+.navbar-mobile 
+{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 4px;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  }
+  .navbar-mobile button.burger {
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: 0; */
+    border: 0;
+    background: transparent;
+    padding: 11px 15px;
+    cursor: pointer;
+    outline: none;
+  }
+  .navbar-mobile button.burger span {
+    display: block;
+    width: 15px;
+    height: 3px;
+    background: #000;
+    margin: 3px 0;
+    border-radius: 4px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  .navbar-mobile button.burger:focus span:first-child {
+    -webkit-transform-origin: 2px 9px;
+            transform-origin: 2px 9px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .navbar-mobile button.burger:focus span:nth-child(2) {
+    -webkit-transform-origin: 2px 3px;
+            transform-origin: 2px 3px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .navbar-mobile button.burger:focus span:last-child {
+    -webkit-transform-origin: 2px -9px;
+            transform-origin: 2px -3px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .navbar-mobile button.burger:focus + ul {
+    max-height: 500px;
+  }
+  .navbar-mobile ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+  }
+  .navbar-mobile ul.menu > li {
+    display: block;
+    padding: 10px 15px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .navbar-mobile ul.menu > li:hover {
+    background: red;
+    color: #fff;
+  }
+
+.f-navBar-dark
+{
+    background-color: var(--cDark);
+}
+.f-navBar-blue
+{
+    background-color: var(--cBlue-Primary);
+}
+.f-navBar-gray
+{
+    background-color: var(--cGray3);
+}
+.f-navBar-dark div div ul.f-df li a,
+.f-navBar-blue div div ul.f-df li a
+{
+    color: white;
+}
+.f-navBar-gray div div ul.f-df li a
+{
+    color: var(--cFGray);
+}

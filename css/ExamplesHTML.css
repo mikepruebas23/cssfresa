@@ -35,6 +35,12 @@
     padding: 5px;
     border-radius: 6px;
 }
+.ex-block2
+{
+    width: 48%;
+    padding: 5px;
+    border-radius: 6px;
+}
 .ex-block-text
 {
     /* background: #444; */
@@ -55,7 +61,6 @@
     .ex-small-block
     {
         width: 100%;
+        padding: 0;
     }
-    
-
 }

@@ -1,0 +1,78 @@
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.f-row
+{
+  /* background: blue; */
+  /* color: white; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.f-col
+{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.f-col2
+{
+  
+  width: calc((100% - 0px * 6) / 6);
+  /* height: 80px; */
+  /* margin: 0 10px; */
+  float: left;
+}
+.f-col3
+{
+  
+  width: calc((100% - 0px * 4) / 4);
+  /* height: 80px; */
+/*   margin: 0 10px; */
+  float: left;
+}
+.f-col4
+{
+  
+  width: calc((100% - 0px * 3) / 3);
+  /* height: 80px; */
+  /* margin: 0 10px; */
+  float: left;
+}
+.f-col6
+{
+  
+  width: calc((100% - 0px * 2) / 2);
+  /* height: 80px; */
+  /* margin: 0 10px; */
+  float: left;
+}
+.f-col8
+{
+  
+  width: calc((100% - 0px * 1.5) / 1.5);
+  /* height: 80px; */
+  /* margin: 0 10px; */
+  float: left;
+}
+
+.f-col12
+{
+  width: calc((100% - 0px * 1) / 1);
+  /* height: 80px; */
+  /* margin: 0 10px; */
+  float: left;
+}
+@media only screen and (max-width: 480px)
+{
+  .f-col6-sm
+  {
+/*     background-color: rgba(2, 115, 212, 1); */
+/*     color: white; */
+    width: calc((100% - 0px * 1) / 1);
+/*     height: 80px; */
+/*     margin: 0 10px; */
+/*     float: left; */
+  }
+}

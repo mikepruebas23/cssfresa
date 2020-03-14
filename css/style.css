@@ -2,6 +2,9 @@
 @import "normalize.css";
 @import "fonts.css";
 @import "Buttons.css";
+@import "Cards.css";
+@import "NavBars.css";
+@import "GridSystem.css";
 @import "widths.css";
 @import "colors.css";
 @import "tags.css";
@@ -10,6 +13,7 @@
 @import "backgrounds.css";
 @import "style-page.css";
 @import "nbar-mobile.css";
+
 
 
 /* division */
@@ -30,6 +34,10 @@
 .f-df
 {
   display: flex;
+}
+.f-aic
+{
+  align-items: center;
 }
 .f-df-fdr
 {

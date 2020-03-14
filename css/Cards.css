@@ -1,0 +1,78 @@
+
+.f-card
+{
+    position: relative;
+    width: 18rem;
+    color: black;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+.f-card-img
+{
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+.f-card-category
+{
+    background-color: #ff5e00;
+    color: white;
+    margin: 0;
+    position: absolute;
+    width: 6rem;
+    text-align: center;
+    top: 165px;
+    font-size: 1.3rem;
+    padding: 2px;
+}
+/* .f-card-icon
+{
+    color: #ff4c4c;
+    margin: 0;
+    position: absolute;
+    width: 2rem;
+    top: 13px;
+    font-size: 1.5rem;
+    right: 9px;
+} */
+.f-card-body
+{
+    padding: 15px;
+    /* color: black;
+    background-color: white;
+    */
+}
+.f-card-title
+{
+    margin-bottom: 0;
+}
+.f-card-subtitle
+{
+    margin: 0;
+    color: #ff5e00;
+}
+.f-card-content
+{
+    margin-top: 20px;
+}
+.f-card-footer
+{
+    justify-content: center;
+    /* background: #e8e8e852 */
+}
+.f-card-price
+{
+    padding: 5px; 
+    font-size: 3rem;
+    color: #61e472;
+    margin: 0 auto 10px auto;
+}
+.f-card-from
+{
+    /* background: #e8e8e8; */
+    color: #afafaf;
+    padding: 10px;
+    text-align: end;
+    font-size: 1.3rem;
+}
