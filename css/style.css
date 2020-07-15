@@ -15,7 +15,6 @@
 @import "nbar-mobile.css";
 
 
-
 /* division */
 .division
 {
@@ -49,6 +48,12 @@
   display: flex;
   flex-direction: column;
 }
+.f-df-jcc-aic
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .f-dnone
 {
   display: none;
@@ -56,11 +61,11 @@
 /* mobile-portrait */
 @media (max-width: 479px) and (min-width: 320px )
 {
-.small-subdivision
-{
-  width: 90%;
-  margin: 0 auto;
-}
+  .small-subdivision
+  {
+    width: 90%;
+    margin: 0 auto;
+  }
   .f-small-division
   {
     width: 100%;

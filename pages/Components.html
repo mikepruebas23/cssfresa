@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,Framework,Diseño web,Reponsive">
+    <meta name="author" content="Miguel Angel Armenta Acosta">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Components | FRESA CSS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/ExamplesHTML.css"> -->
+    <link href="../css/faw/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="division bg-1 f-nbar-sticky">
+        <header class="subdivision">
+            <div class="f-df-fdr f-pd10">
+                <div class="f-logo">
+                    <img src="../img/letter-f.svg" alt="LOGO">
+                </div>
+                <div>
+                    <ul class="f-df">
+                        <li><a href="../index.html" class="f-txtcolor-black">Home</a></li>
+                        <li><a href="#" class="f-txtcolor-black f-ml20">Components</a></li>
+                        <li><a href="#" class="f-txtcolor-black f-ml20">Examples</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- End navBar -->
+    <div class="f-dnone f-small-dblock">
+        <header>
+            <div class="menu_bar">
+                <a href="#" class="bt-menu"><i class="fas fa-bars"></i></a>
+            </div>
+            <nav class="ZI1">
+                <ul class="f-p0 f-m0">
+                    <li class=""><a href="content/Buttons.html" class="menu-txt-colo"><i class="fas fa-caret-square-right"></i>Buttons</a></li>
+                    <li><a href="content/Cards.html" class="menu-txt-color"><i class="fas fa-id-card"></i>Cards</a></li>
+                    <li><a href="content/Footers.html" class="menu-txt-color"><i class="fas fa-money-check"></i>Footers</a></li>
+                    <li><a href="content/GridSystem.html" class="menu-txt-color"><i class="fas fa-th-large"></i>Grid System</a></li>
+                    <li><a href="content/NavBars.html" class="menu-txt-color"><i class="fas fa-location-arrow"></i>NavBars</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- End navBar Mobile-->
+    <div class="division f-df-fdr f-small-dnone">
+        <div class="f-w10 f-mt20 lateral f-fz20">
+            <nav>
+                <div class="f-pd10 f-tac">
+                    <a href="content/Buttons.html" class="menu-list">Buttons</a>
+                </div>
+                <div class="f-pd10 f-tac">
+                    <a href="content/Cards.html" class="menu-list">Cards</a>
+                </div>
+                <div class="f-pd10 f-tac">
+                    <a href="content/Footers.html" class="menu-list">Footers</a>
+                </div>
+                <div class="f-pd10 f-tac">
+                    <a href="content/GridSystem.html" class="menu-list">Grid System</a>
+                </div>
+                <div class="f-pd10 f-tac">
+                    <a href="content/Headers.html" class="menu-list">Headers</a>
+                </div>
+                <div class="f-pd10 f-tac">
+                    <a href="content/NavBars.html" class="menu-list">NavBars</a>
+                </div>
+            </nav>
+        </div>
+        <!-- fin lateral -->
+        <div class="f-w80 f-mt20 f-pd10">
+        </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+
+$(document).ready(main);
+
+var contador = 1;
+
+function main () {
+	$('.menu_bar').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+
+	// Mostramos y ocultamos submenus
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+
+</script>
+</html>
